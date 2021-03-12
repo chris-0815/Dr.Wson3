@@ -1,0 +1,16 @@
+.language-bar {
+    float: right;
+    &__inner-container {
+        width: 3rem;
+        height: 3rem;
+    }
+    &__close {
+        background: transparent url(../src/icons/button-language.svg) no-repeat center;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    &__link-container {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button-icon/icon-arrow</title>
+    <g id="button-icon/icon-arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Arrow">
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.5" x="0.75" y="0.75" width="46.5" height="46.5" rx="23.25"></rect>
+            <path d="M23.5960734,13.2325243 L33.5477853,23.2199189 L33.517,23.2495243 L33.5477853,23.2800811 L23.5960734,33.2674757 L22.5579925,32.2199189 L30.38,24.3695243 L14,24.3696553 L14,22.8696553 L31.117,22.8695243 L22.5579925,14.2800811 L23.5960734,13.2325243 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

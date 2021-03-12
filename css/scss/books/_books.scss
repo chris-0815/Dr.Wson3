@@ -1,0 +1,48 @@
+.books {
+    ul>li {
+        display: none;
+    }
+    width: 100vw;
+    &__carousel_box {
+        margin: 3rem auto;
+    }
+    &__slider_card {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 100px;
+        width: 368px;
+        height: 398px;
+        padding: 26px 73px 25px 69px;
+        background-color: #ebeced;
+    }
+    &__citem {
+        width: 226px;
+        height: 347px;
+         :hover {
+            background-color: #b3d100;
+        }
+    }
+    .PrevArrow {
+        position: absolute;
+        right: 0%;
+        bottom: -1%;
+    }
+    &__slick-arrow::before {
+        content: ""!important;
+        background: transparent url(../src/icons/icon-arrow.svg) no-repeat center!important;
+        width: 48px!important;
+        height: 48px;
+        display: block;
+        color: white;
+    }
+    .NextArrow {
+        transform: rotate(180deg);
+        position: relative;
+        top: .5rem;
+    }
+    .PrevArrow,
+    .NextArrow {
+        background: transparent;
+        border: 0;
+    }
+}

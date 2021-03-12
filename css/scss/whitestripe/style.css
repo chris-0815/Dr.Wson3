@@ -1,0 +1,13 @@
+.whitestripe {
+  margin: 2rem 0;
+}
+.whitestripe h1 {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-align: center;
+}
+.whitestripe p {
+  margin: 2rem auto;
+  padding: 0 5rem;
+}/*# sourceMappingURL=style.css.map */

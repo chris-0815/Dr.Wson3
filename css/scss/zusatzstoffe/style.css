@@ -1,0 +1,31 @@
+.zusatzstoffe div.zusatzstoffe__background-img {
+  position: relative;
+}
+.zusatzstoffe__background-img {
+  background: white url(../src/img/FD_Zusatzstoffe_1440x860px.jpg) no-repeat center;
+  background-size: contain;
+  width: 100vw;
+}
+.zusatzstoffe__watson {
+  display: block;
+  width: 5rem;
+  margin: 0rem auto;
+  padding-top: 2rem;
+}
+.zusatzstoffe h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.zusatzstoffe p {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 10%;
+}
+.zusatzstoffe h2 {
+  padding: 0 12.5%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */

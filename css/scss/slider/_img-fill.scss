@@ -1,0 +1,37 @@
+.single-item {
+    .img-fill {
+        // background: transparent url("../src/img/FD_Stage_1440x750px.jpg") center no-repeat;
+        height: auto;
+    }
+    .slick-prev,
+    .slick-next {
+        display: inline-block;
+        position: absolute;
+        top: 45%;
+        z-index: 1;
+        background-color: transparent;
+        border: none;
+    }
+    .slick-next {
+        transform: rotate(180deg);
+    }
+    .slick-prev {
+        right: 0%;
+    }
+    .slick-next {
+        left: 0%;
+    }
+    .slick-arrow::before {
+        content: ""!important;
+        background: transparent url(../src/icons/icon-arrow-white.svg) no-repeat center!important;
+        width: 48px!important;
+        height: 48px;
+        display: block;
+        color: white;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style: circle;
+    }
+}

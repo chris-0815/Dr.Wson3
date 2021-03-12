@@ -1,0 +1,12 @@
+.footer {
+    background-color: $orange;
+    &__watson {
+        width: 5rem;
+    }
+    &__social_media {
+        display: flex;
+    }
+    &__app_store {
+        display: flex;
+    }
+}

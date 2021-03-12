@@ -1,0 +1,12 @@
+.infoStage {
+    border: 0.5px solid #e0e0e0;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem 0.8rem;
+    h2 {
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+}

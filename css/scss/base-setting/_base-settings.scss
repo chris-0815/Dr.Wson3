@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Lato');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.active {
+    background-color: $orange;
+}
+
+.wichtiger-text {
+    font-weight: bold;
+}
+
+.screenreader {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -20px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: $orange;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
+}

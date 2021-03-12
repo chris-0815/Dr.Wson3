@@ -1,0 +1,21 @@
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="16.5" height="22.02" viewBox="0 0 16.5 22.02">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="button-search">
+    <g id="ic-button-search">
+      <circle id="Oval" class="cls-1" cx="9.6" cy="6.9" r="6.15"/>
+      <line id="Path-2" class="cls-2" x1="4.65" y1="14.65" x2="0.65" y2="21.65"/>
+    </g>
+  </g>
+</svg>

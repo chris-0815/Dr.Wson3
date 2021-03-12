@@ -1,0 +1,19 @@
+.searchbar {
+    float: right;
+    &__inner-container {
+        width: 3rem;
+        height: 3rem;
+    }
+    &__close {
+        background: transparent url(../src/icons/button-search.svg) no-repeat center;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    &__input {
+        display: none;
+    }
+    &__submit {
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Lato");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", "Lato", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.active {
+  background-color: red !important;
+}
+
+.wichtiger-text {
+  font-weight: bold;
+}
+
+.screenreader {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}/*# sourceMappingURL=style.css.map */

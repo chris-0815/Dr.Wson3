@@ -1,0 +1,80 @@
+.zusatzstoffe {
+    position: relative;
+    &__enummer {
+        display: block;
+        letter-spacing: normal;
+    }
+    &__watson {
+        display: block;
+        width: 5rem;
+        margin: 0rem auto;
+        padding-top: 2rem;
+    }
+    h1 {
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    p {
+        font-size: 1rem;
+        text-align: center;
+        padding: 0 10%;
+    }
+    h2 {
+        padding: 9% 12.5%;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: -2rem -5rem;
+    }
+    &__background {
+        &__img {
+            background: white url(../src/img/FD_Zusatzstoffe_1440x860px.jpg) no-repeat center;
+            background-size: cover;
+            padding: 3rem 6rem;
+        }
+        &--color-grey {
+            background-color: $light-grey;
+        }
+    }
+    &__more-info-btn {
+        margin: 0 35%;
+        width: 30%;
+        position: relative;
+        top: -1rem;
+    }
+    @media (max-width: 768px) {
+        .formfield1 form.example input {
+            width: 16rem;
+            height: 2rem;
+            font-size: 1rem;
+        }
+        .zusatzstoffe h2 {
+            padding: 7% 19%;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+h2.zusatzstoffe__enummer::after {
+    content: "";
+    background: transparent url(../src/icons/icon-e-nummer.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+}
+
+h2.zusatzstoffe__plus::after {
+    content: "";
+    background: transparent url(../src/icons/icon-krankheiten.svg) no-repeat center;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+}
+
+section.zusatzstoffe {
+    background-color: $light-grey;
+}

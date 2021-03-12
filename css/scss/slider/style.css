@@ -1,0 +1,18 @@
+.img-fill {
+  height: auto;
+}
+
+img.responsive {
+  width: auto;
+  height: 60vh;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+.button-style {
+    background-color: $orange;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .2rem;
+    padding: .65rem 0;
+    &--invert-color {
+        color: $orange;
+        background-color: transparent;
+        border: 2px solid $orange;
+    }
+    &--white {
+        color: #fff;
+        border: 2px solid #fff;
+        background-color: transparent !important;
+        margin-top: 3rem;
+        padding: .5rem 1rem;
+    }
+    &--submit {
+        background: #f80 url(../src/icons/icon-search--white.svg) no-repeat center;
+        background-size: .85rem;
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        border-radius: 3px;
+        position: absolute;
+    }
+}

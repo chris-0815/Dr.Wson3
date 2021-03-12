@@ -1,0 +1,14 @@
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="15.84" height="9" viewBox="0 0 15.84 9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="button-drop-down">
+    <polyline id="Path" class="cls-1" points="15.31 0.53 7.81 7.93 0.54 0.53"/>
+  </g>
+</svg>

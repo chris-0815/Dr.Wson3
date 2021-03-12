@@ -1,0 +1,17 @@
+.mobile-nav-content {
+    position: absolute;
+    right: 0;
+    top: 4.15rem;
+    display: none;
+    >ul>li {
+        display: block;
+        background-color: $dark-grey;
+        height: 3.5rem;
+        padding: 0 1.2rem;
+        text-align: center;
+    }
+}
+
+.content-width {
+    margin-top: 1.75rem;
+}

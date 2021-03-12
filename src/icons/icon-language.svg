@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button-language</title>
+    <g id="button-language" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-button-language" stroke="#FF8800" stroke-width="1.5">
+            <g>
+                <g id="Group">
+                    <circle id="Oval" cx="11" cy="11" r="10.4"></circle>
+                    <ellipse id="Oval" cx="11" cy="11" rx="5.4" ry="10.4"></ellipse>
+                </g>
+                <line x1="1" y1="11" x2="21" y2="11" id="Line-4" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="11" y1="21" x2="11" y2="1" id="Line-4" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

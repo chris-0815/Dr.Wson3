@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-Krankheiten</title>
+    <g id="icon-Krankheiten" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button" stroke="#FF8800" stroke-width="1.5">
+            <rect id="Rectangle" x="0.75" y="0.75" width="30.5" height="30.5" rx="15.25"></rect>
+        </g>
+        <g id="Group" transform="translate(10.000000, 10.000000)" stroke="#FF8800" stroke-linecap="square" stroke-width="1.5">
+            <line x1="0.469230769" y1="6.1" x2="11.7307692" y2="6.1" id="Path-3" transform="translate(6.100000, 6.100000) rotate(90.000000) translate(-6.100000, -6.100000) "></line>
+            <line x1="0" y1="6.1" x2="12.2" y2="6.1" id="Path-3"></line>
+        </g>
+    </g>
+</svg>

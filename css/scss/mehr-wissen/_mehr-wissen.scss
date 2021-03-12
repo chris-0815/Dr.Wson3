@@ -1,0 +1,12 @@
+.mehr-wissen {
+    align-items: center;
+    text-align: center;
+    &__watson {
+        width: 6rem;
+        margin: 0 auto;
+    }
+    button {
+        width: 33%;
+        margin: 0 33.333%;
+    }
+}

@@ -1,0 +1,28 @@
+.lexi-area {
+    .container {
+        width: 100%;
+        height: 26vh;
+    }
+    .col-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        display: block;
+        width: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1 {
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    &__background-img {
+        background: url("../src/img/FD_Teaserstripe_Lexikon_1440x480px.jpg") no-repeat center;
+        background-size: cover;
+    }
+}
